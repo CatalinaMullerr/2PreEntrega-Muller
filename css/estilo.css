@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+
+header{
+    display: flex;
+    min-height: 100%;
+    background-color: rgb(255, 224, 229);
+    justify-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 400;
+    padding: 70px;
+    
+}
+nav a:hover{
+   color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: pink;
+    
+
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(250, 165, 179);  
+}
+h3{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: rgb(253, 135, 157);
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    justify-items: center ;
+}
+.section2{
+    text-align: center;
+}
+.fotoRita{
+    border-radius: 20%;
+    cursor: pointer;
+
+}
+.fotoRita:hover{
+    transform: scale(1.1);
+}
+footer.div{
+    text-align: center;
+   
+}
+
+.this{
+    text-align: center;
+    
+    
+}
+.color{
+
+    min-height: 100%;
+    background-color: rgb(255, 224, 229);
+    justify-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+nav__redes{
+    color: black;
+}
+.nav__redes:hover{
+    background-color: rgb(243, 138, 243);
+}
+.contenedor{
+    display: grid;
+    place-items: center;
+}
+.contenedor figure{
+    display: inline-block;
+    position: relative;
+    height: 350px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(255, 148, 223, 0.5);
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-out;
+    will-change: transform;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 108, 169, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+h4{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+button{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: 1px solid palevioletred;
+    box-shadow: 2px 2px 10px rgb(243, 197, 243);
+    color: rgba(185, 50, 90, 0.61);
+    background-color: rgb(223, 163, 173);
+    margin-top: 30px;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(233, 117, 136);
+}
+
+.Section7{
+    text-align: center;
+    font-size: 30px;
+     
+}
+.Section7 :hover{
+   background-color: rgb(255, 234, 238);
+}
+.nav__redes{
+    color: black;
+}
+.nav__redes:hover{
+    background-color: rgb(243, 138, 243);
+}
+h6{
+    text-align: center;
+    font-size: 40px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+
+    
+}
+h1 {
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+ }
+  
+ 
+ 
